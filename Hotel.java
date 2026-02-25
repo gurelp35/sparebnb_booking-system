@@ -1,7 +1,7 @@
 // Hotel.java
 // This class represents a Hotel as a type of accommodation.
 // It inherits from the abstract class Accommodation.
-
+package model;
 public class Hotel extends Accommodation {
     // ==============================
     // Fields (Properties)
@@ -30,3 +30,4 @@ public class Hotel extends Accommodation {
                 " | Facilities: " + facilitiesAsText());
     }
 }
+

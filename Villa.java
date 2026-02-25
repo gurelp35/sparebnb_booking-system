@@ -1,7 +1,7 @@
 // Villa.java
 // This class represents a Villa as a type of accommodation.
 // It inherits from the abstract class Accommodation.
-
+package model;
 public class Villa extends Accommodation {
     // ==============================
     // Fields (Properties)

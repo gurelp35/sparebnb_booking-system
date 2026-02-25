@@ -2,7 +2,7 @@
 // This class represents a Sofa as a type of accommodation.
 // A sofa means a guest can rent just a couch or shared sleeping space.
 // It inherits from the abstract class Accommodation.
-
+package model;
 public class Sofa extends Accommodation {
     // ==============================
     // Fields (Properties)

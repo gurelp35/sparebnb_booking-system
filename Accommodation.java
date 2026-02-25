@@ -1,7 +1,8 @@
+
 // Accommodation.java
 // This is an abstract class that represents a general type of accommodation (place to stay).
 // It will be the parent class for Flat, Hotel, Villa, and Sofa.
-
+package model;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,6 +35,22 @@ public abstract class Accommodation {
     public String getName() { return name; }
     public double getPricePerNight() { return pricePerNight; }
     public String getLocation() { return location; }
+
+    // ==============================
+    // Controlled Setters (Encapsulation)
+    // ==============================
+
+    public void setPricePerNight(double pricePerNight) {
+        if (pricePerNight > 0) {
+            this.pricePerNight = pricePerNight;
+        }
+    }
+
+    public void setLocation(String location) {
+        if (location != null && !location.isBlank()) {
+            this.location = location;
+        }
+    }
 
     // ==============================
     // Facilities (Composition)

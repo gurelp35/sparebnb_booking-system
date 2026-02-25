@@ -1,7 +1,7 @@
 // Facility.java
 // This class represents an additional feature or amenity that can be available in an accommodation.
 // Examples: Kitchen, Wi-Fi, Swimming Pool, etc.
-
+package model;
 public class Facility {
     // ==============================
     // Fields (Properties)
