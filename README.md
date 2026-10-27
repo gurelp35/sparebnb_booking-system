@@ -69,5 +69,5 @@ This project reflects applied understanding of:
 ## Author
 
 Pakize Gurel  
-BA (Hons) Digital Media  
+BSc (Hons) Digital Media  
 University of Roehampton
