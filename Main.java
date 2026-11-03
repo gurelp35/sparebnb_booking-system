@@ -2,6 +2,12 @@
 // This class is the entry point of the application.
 // It demonstrates creating different types of accommodations and printing their details.
 
+import model.Flat;
+import model.Hotel;
+import model.Villa;
+import model.Sofa;
+import model.Facility;
+
 public class Main {
     public static void main(String[] args) {
         // ==============================
