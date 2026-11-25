@@ -54,6 +54,20 @@ The design emphasises maintainability, scalability, and clarity of object respon
 
 ---
 
+## Running the demo
+
+Use JDK 21 (the version used by the GitHub Actions build). From the repository root:
+
+```sh
+mkdir -p build
+javac -d build *.java
+java -cp build Main
+```
+
+The entry point prints sample accommodation details. The CI smoke test checks for `City Center Flat`, `Luxury Villa`, and `End of Accommodation List` in the output. This is a console demonstration, not a deployed booking service.
+
+---
+
 ## Development Focus
 
 This project reflects applied understanding of:
@@ -69,5 +83,5 @@ This project reflects applied understanding of:
 ## Author
 
 Pakize Gurel  
-BSc (Hons) Digital Media  
+BSc (Hons) Web Design and Development  
 University of Roehampton
